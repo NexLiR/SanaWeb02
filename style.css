@@ -1,0 +1,29 @@
+p {
+    color: green;
+    text-align: center;
+}
+.red_text {
+  color: red;
+}
+
+#pink_text {
+    color: deeppink;
+}
+a {
+    color: blue;
+}
+.list a {
+    color: deeppink;
+    display: list-item;
+    list-style-type: none;
+}
+.list a.main_list_elements {
+    color: green;
+}
+.list li > a.list_last_element {
+    list-style-type: square;
+    text-decoration: none;
+}
+li > a:not(.main_list_elements) {
+    margin-left: 20px;
+}
