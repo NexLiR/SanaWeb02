@@ -27,3 +27,15 @@ a {
 li > a:not(.main_list_elements) {
     margin-left: 20px;
 }
+
+h1 + p.first_parag {
+    font-size: 20px;
+}
+p > code {
+    color: red;
+    white-space: pre;
+    font-family: monospace;
+}
+p + p > code {
+    color: pink;
+}
