@@ -5,7 +5,6 @@ p {
 .red_text {
   color: red;
 }
-
 #pink_text {
     color: deeppink;
 }
@@ -38,4 +37,43 @@ p > code {
 }
 p + p > code {
     color: pink;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+}
+tr, td {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+thead > tr > td:nth-child(1) {
+    background-color: #f2dbdb;
+}
+thead > tr > td:nth-child(2) {
+    background-color: #e5b8b7;
+}
+thead > tr > td:nth-child(3) {
+    background-color: #d99594;
+    color: white;
+}
+thead > tr > td:nth-child(4) {
+    background-color: #943634;
+    color: white;
+}
+thead > tr > td:nth-child(5) {
+    background-color: #632423;
+    color: white;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #e5b8b7;
+}
+tbody > tr:nth-child(even) {
+    background-color: #f2dbdb;
+}
+tbody > tr > td:first-child {
+    background-color: #c0504d;
+    color: white;
 }
